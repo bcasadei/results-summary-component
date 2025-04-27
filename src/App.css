@@ -47,8 +47,15 @@ h5 {
   html {
     font-size: 18px;
   }
+  body {
+    height: 100svh;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
   .container {
-    margin: 30px auto;
+    margin: auto;
     min-height: auto;
     border-radius: 32px;
     flex-flow: row nowrap;
