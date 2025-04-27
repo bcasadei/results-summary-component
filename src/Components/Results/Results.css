@@ -1,0 +1,43 @@
+.results__card {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  text-align: center;
+  background: var(--gradient-1);
+  border-radius: 0 0 32px 32px;
+  padding: 30px 60px 30px;
+  color: var(--light-lavender);
+}
+.results__card h1 {
+  color: var(--white);
+}
+.results__card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--white);
+}
+.results__card h4 {
+  font-size: 1.125rem;
+  margin-bottom: 1.57rem;
+}
+.results__card p {
+  font-size: 1rem;
+}
+.results__circle {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background: var(--gradient-2);
+  padding: 20px;
+  margin-bottom: 1.57rem;
+}
+
+/* Media queries */
+/* Laptops and small screen – 769px and up */
+@media only screen and (min-width: 768px) {
+  .results__card {
+    width: 50%;
+    border-radius: 32px;
+  }
+}

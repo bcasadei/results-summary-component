@@ -1,0 +1,56 @@
+body,
+html {
+  background-color: var(--pale-blue);
+  font-family: 'HankenGrotesk', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: auto;
+}
+h1 {
+  font-weight: 900;
+  line-height: auto;
+  font-size: 3.5rem;
+}
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 700;
+  line-height: auto;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: var(--white);
+  margin-top: 24px;
+}
+.attribution a {
+  color: var(--white);
+}
+.container {
+  max-width: 736px;
+  min-height: 100svh;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column;
+  background-color: var(--white);
+  box-shadow: 0 30px 60px var(--drop-shadow);
+}
+
+/* Media queries */
+/* Laptops and small screen – 769px and up */
+@media only screen and (min-width: 768px) {
+  body,
+  html {
+    font-size: 18px;
+  }
+  .container {
+    margin: 30px auto;
+    min-height: auto;
+    border-radius: 32px;
+    flex-flow: row nowrap;
+  }
+}

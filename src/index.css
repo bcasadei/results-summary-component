@@ -1,0 +1,47 @@
+/* Fonts */
+@font-face {
+  font-family: 'HankenGrotesk';
+  font-weight: 500 700 800;
+  src: url('assets/fonts/HankenGrotesk-VariableFont_wght.ttf')
+    format('truetype');
+}
+
+:root {
+  /* Color variables */
+  /* Primary */
+  --light-red: hsl(0, 100%, 67%);
+  --light-red-5: hsla(0, 100%, 67%, 5%);
+  --orange-yellow: hsl(39, 100%, 56%);
+  --orange-yellow-5: hsla(39, 100%, 56%, 5%);
+  --green-teal: hsl(166, 100%, 37%);
+  --green-teal-5: hsla(166, 100%, 37%, 5%);
+  --cobalt-blue: hsl(234, 85%, 45%);
+  --cobalt-blue-5: hsla(234, 85%, 45%, 5%);
+
+  /* Gradients */
+  --gradient-1: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  --gradient-2: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+
+  /* Neutral */
+  --white: hsl(0, 0%, 100%);
+  --pale-blue: hsl(221, 100%, 96%);
+  --light-lavender: hsl(241, 100%, 89%);
+  --dark-gray-blue: hsl(224, 30%, 27%);
+  --dark-gray-blue-50: hsla(224, 30%, 27%, 50%);
+  --drop-shadow: hsla(224, 82%, 58%, 15%);
+
+  /* Font utility styles */
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
